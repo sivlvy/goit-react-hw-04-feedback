@@ -3,7 +3,6 @@ import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Statisctics/Statistics';
 import { useState } from 'react';
 
-const buttons = ['Good', 'Neutral', 'Bad'];
 
 export const App = () => {
 	const [value, setValue] = useState({
